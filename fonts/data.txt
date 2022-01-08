@@ -1,0 +1,9 @@
+// @include font('Roboto', normal, 100, '../fonts/RobotoRegular.woff2');
+// @include font('Roboto', normal, 200, '../fonts/RobotoRegular.woff2');
+// @include font('Roboto', normal, 300, '../fonts/RobotoRegular.woff2');
+@include font('Montserrat', normal, 400, '../fonts/montserrat_regular.woff2');
+@include font('Montserrat', normal, 500, '../fonts/montserrat_medium.woff2');
+@include font('Montserrat', normal, 600, '../fonts/montserrat_semibold.woff2');
+@include font('Montserrat', normal, 700, '../fonts/montserrat_bold.woff2');
+// @include font('Roboto', normal, 800, '../fonts/RobotoBold.woff2');
+// @include font('Roboto', normal, 900, '../fonts/RobotoBold.woff2');
