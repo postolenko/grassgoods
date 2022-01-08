@@ -755,6 +755,11 @@ main {
 	opacity: 1;
 }
 /*-- /Like Fixed --*/
+/*-- Breadcrumbs --*/
+.breadcrumbs_wrapp {
+	padding-top: 25px !important;
+}
+/*-- /Breadcrumbs --*/
 /*-- Section 3 - Categories --*/
 .two_cols_templ_2 {
     margin: 13px 0 68px 0;
