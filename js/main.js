@@ -485,8 +485,16 @@ $(document).ready(function() {
 		arrows: true,
 		dots: false,
 		fade: true,
-		asNavFor: '.miniatures_slider'
-	});
+		asNavFor: '.miniatures_slider',
+		responsive: [
+			{		
+				breakpoint: 767,
+				settings: {
+					dots: true,
+				}
+			}
+		]
+	});	
 	$('.miniatures_slider').slick({
 		slidesToShow: 5,
 		slidesToScroll: 1,
@@ -496,7 +504,7 @@ $(document).ready(function() {
 		focusOnSelect: true,
 		variableWidth: true
 	});
-
+	// --------------
 });
 
 
