@@ -405,7 +405,7 @@ main {
 	display: -webkit-flex;
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
-    margin: 22px -4px;
+    margin: 27px -4px 22px -4px;
 }
 .tags_list > div {
 	margin: 3px 4px;
@@ -551,6 +551,9 @@ main {
 .button_wrapp {
 	padding: 30px 0 0 0;
 }
+.button_wrapp .button {
+	padding: 19px 18px;
+}
 .card_thumb {
 	width: calc(50% - 20px);
 	margin: 10px;	
@@ -569,7 +572,7 @@ main {
 .card_thumb .img_box {
 	display: block;
 	height: 220px;
-	margin: 0 0 18px;
+	margin: 0 0 20px;
 	overflow: hidden;
 	position: relative;
 	background-color: #F0F1F3;
@@ -617,7 +620,7 @@ main {
 	color: #EF600F;
 }
 .card_descript {
-	padding: 12px 0;
+	padding: 12px 21px 12px 0;
 }
 .card_descript p {
 	font-weight: normal;
