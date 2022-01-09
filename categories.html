@@ -594,42 +594,47 @@
 		<div class="container">
 			<div class="two_cols_templ two_cols_templ_2">
 				<div class="left_col">
-					<div class="grey_box">
-						<div class="grey_box_title">
-							<h3>У меня на кухне остались:</h3>
-						</div>
-						<div class="tags_list">
-							<div class="tag_2"><p>Творог</p><button type="button" class="del_tag"></button></div>
-							<div class="tag_2"><p>Куриное филе</p><button type="button" class="del_tag"></button></div>
-							<div class="tag_2"><p>Сыр</p><button type="button" class="del_tag"></button></div>
-							<div class="tag_2"><p>Гречка</p><button type="button" class="del_tag"></button></div>
-							<div class="tag_2"><p>Рис</p><button type="button" class="del_tag"></button></div>
-						</div>
-						<div class="select_form_wrapp">
-							<h3>*Выберите продукты</h3>
-							<form>
-								<div class="select_form">
-									<input class="select_form_input" type="text" name="#" placeholder="Прродукт"  onkeyup="filterFunction2()" id="myInput2" />
-									<button type="button" class="show_list"></button>
-									<div class="dropdown_select_search" id="myDropdown2">
-										<div class="scroll_y">
-										    <a href="#"><span>Х</span>ачапури</a>
-										    <a href="#"><span>Х</span>инкали</a>
-										    <a href="#"><span>Х</span>леб</a>
-										    <a href="#"><span>Х</span>алва</a>
-										    <a href="#"><span>Х</span>олодец</a>
-										    <a href="#"><span>Х</span>лопья</a>
-										    <a href="#"><span>Б</span>орщ</a>
-										    <a href="#"><span>У</span>ха</a>
-										    <a href="#"><span>Ш</span>аурма</a>
+					<div id="scrollWrapp">
+					<div class="scroll_height">
+					<div class="scroll_box">
+						<div class="grey_box">
+							<div class="grey_box_title">
+								<h3>У меня на кухне остались:</h3>
+							</div>
+							<div class="tags_list">
+								<div class="tag_2"><p>Творог</p><button type="button" class="del_tag"></button></div>
+								<div class="tag_2"><p>Куриное филе</p><button type="button" class="del_tag"></button></div>
+								<div class="tag_2"><p>Сыр</p><button type="button" class="del_tag"></button></div>
+								<div class="tag_2"><p>Гречка</p><button type="button" class="del_tag"></button></div>
+								<div class="tag_2"><p>Рис</p><button type="button" class="del_tag"></button></div>
+							</div>
+							<div class="select_form_wrapp">
+								<h3>*Выберите продукты</h3>
+								<form>
+									<div class="select_form">
+										<input class="select_form_input" type="text" name="#" placeholder="Прродукт"  onkeyup="filterFunction2()" id="myInput2" />
+										<div class="dropdown_select_search" id="myDropdown2">
+											<div class="scroll_y">
+											    <a href="#"><span>Х</span>ачапури</a>
+											    <a href="#"><span>Х</span>инкали</a>
+											    <a href="#"><span>Х</span>леб</a>
+											    <a href="#"><span>Х</span>алва</a>
+											    <a href="#"><span>Х</span>олодец</a>
+											    <a href="#"><span>Х</span>лопья</a>
+											    <a href="#"><span>Б</span>орщ</a>
+											    <a href="#"><span>У</span>ха</a>
+											    <a href="#"><span>Ш</span>аурма</a>
+											</div>
+										 </div>
+										 <div class="button_wrapp">
+										 	<button type="submit" class="button button-black button-big">Подобрать рецепты</button>
 										</div>
-									 </div>
-									 <div class="button_wrapp">
-									 	<button type="submit" class="button button-black button-big">Подобрать рецепты</button>
 									</div>
-								</div>
-							</form>
+								</form>
+							</div>
 						</div>
+					</div>
+					</div>
 					</div>
 				</div>
 				<div class="right_col">
@@ -660,6 +665,7 @@
 						</a>
 					</div>
 				</div>
+				<div class="scrollBotttomCoord"></div>
 			</div>
 		</div>
 	</section>
