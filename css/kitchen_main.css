@@ -762,7 +762,7 @@ main {
 /*-- /Breadcrumbs --*/
 /*-- Section 3 - Categories --*/
 .two_cols_templ_2 {
-    margin: 13px 0 68px 0;
+    margin: 11px 0 68px 0;
 }
 .banners_thumbnails_2 {
 	display: flex;
@@ -783,3 +783,234 @@ main {
 	overflow: hidden;
 }
 /*-- /Section 3 - Categories --*/
+/*-- Section 1 - Article Page --*/
+.h1_wrapp h1 {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #303030;
+}
+.article_templ {
+	display: flex;
+	display: -webkit-flex;
+    padding: 21px 0 47px 0;
+}
+.article_templ > .left_col {
+	width: 280px;
+	padding: 10px 10px 10px 0;
+}
+.article_templ > .right_col {
+	width: calc(100% - 280px);
+	padding: 10px 0 10px 10px;
+}
+.banner_2 {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	height: 410px;
+	position: relative;
+	overflow: hidden;
+}
+.banner_2:before {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.2);
+	z-index: 2;
+}
+.banner_2 .img_box {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-webkit-transition-property: transform;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: 2s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: 2s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: 2s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.banner_2:hover .img_box {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+.banner_2 p {
+	width: 100%;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 54px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 0 4px 8px rgba(0, 0, 0, .35);
+	-webkit-text-shadow: 0 4px 8px rgba(0, 0, 0, .35);
+	position: relative;
+	z-index: 3;
+}
+.article_slider_wrapp {
+	padding-bottom: 14px;
+}
+.big_slider {
+    height: 563px;
+}
+.big_slider .slide {
+	height: 563px;
+	background-size: cover;
+	background-position: center;
+}
+.miniatures_slider {
+	margin: 5px -5px;
+}
+.miniatures_slider .slide {
+	height: 114px;
+	width: 173px;
+	margin: 5px;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.slick-arrow {
+    width: 41px;
+    height: 53px;
+	border: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	font-size: 0;
+	line-height: 0;
+}
+.big_slider .slick-arrow {
+	position: absolute;
+	top: calc(50% - 26px);
+	z-index: 3;
+}
+.slick-prev {
+	background-image: url(../img/left_arrow.svg);
+}
+.slick-next {
+	background-image: url(../img/right_arrow.svg);
+}
+.big_slider .slick-prev{
+	left: 0;
+}
+.big_slider .slick-next{
+	right: 0;
+}
+.thumbnails {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.thumbnails .thumb_1 {
+	width: 260px;
+}
+.thumb_1 h3 {
+	padding: 5px 0;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	color: #303030;
+}
+.thumb_1 p {
+	padding: 5px 0;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #303030;
+}
+.article_item {
+    padding: 14px 0;
+}
+.article_item h3 {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	color: #303030;
+}
+.inlines_2 {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	margin: 0 -5px;
+}
+.inlines_2 > div {
+	width: 118px;
+	padding: 5px;
+}
+.inlines_2 p {
+	padding: 5px 0;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #303030;
+}
+.article_list {
+	padding: 12px 0;
+}
+.article_list li {
+	padding: 5px 0;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #303030;
+}
+.step {
+	padding: 10px 0;
+}
+.step h3 {
+	padding: 10px 0;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+.step p {
+	padding: 10px 0;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 135%;
+	color: #303030;
+}
+/*-- /Section 1 - Article Page --*/
+/*-- Section 2 - Article Page --*/
+.h2_wrapp h2 {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #303030;
+}
+.card_thumbs_2 {
+    margin: 30px 0 50px 0;
+}
+.card_thumbs_2 .card_thumb {
+    width: calc(33.33% - 20px);
+}
+/*-- /Section 2 - Article Page --*/

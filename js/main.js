@@ -471,13 +471,30 @@ $(document).ready(function() {
 		  $(".select_form").removeClass("active");
 		}
 	});
-
 	$(document).mouseup(function(e) {
 		hide_element = $(".select_form");
 		if (!hide_element.is(e.target)
 		    && hide_element.has(e.target).length === 0) {
 		    hide_element.removeClass("active");
 		  }
+	});
+	// -------------
+	$('.big_slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: true,
+		dots: false,
+		fade: true,
+		asNavFor: '.miniatures_slider'
+	});
+	$('.miniatures_slider').slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		asNavFor: '.big_slider',
+		dots: false,
+		arrows: false,
+		focusOnSelect: true,
+		variableWidth: true
 	});
 
 });
